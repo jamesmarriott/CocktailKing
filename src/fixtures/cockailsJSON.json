@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Mojito",
+    "glass": "Rocks",
+    "ice": "Crushed",
+    "spirits": "4cl Havana 7 Rum",
+    "fruits": "4 lime squeezes",
+    "syrup": "1cl 1883 sugar syrup",
+    "aro": "6 to 8 mint leaves",
+    "juice": "Splash soda",
+    "sugar": "1 spoon sugar",
+    "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
+    "garnish": "Sprig of mint, lime piece, straw"
+  },  
+  {
+    "id": 2,
+    "name": "Pina Colada",
+    "glass": "Hurricane",
+    "ice": "Crushed",
+    "spirits": "4cl Havana 3 Rum",
+    "fruits": "",
+    "syrup": "3cl Coconut syrup",
+    "aro": "",
+    "juice": "6cl Pineapple Juice. 4dl milk. 1 squirt of cream.",
+    "sugar": "",
+    "method": "Pour all ingredients into the shakes. Add CUBED ice. Shake hard and fast. Pour over CUBED ice in hurricane glass",
+    "garnish": "Lime, organge, mint sprig."
+  }
+]
