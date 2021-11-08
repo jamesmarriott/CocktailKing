@@ -1,46 +1,23 @@
 import {Container, 
         Wrapper} from './styles'
-
-type CocktailProps = {
-    cocktails: {
-       id: number,
-       name: string,
-       glass: string,
-       ice: string,
-       spirits: string,
-       fruits: string,
-       syrup: string,
-       aro: string,
-       juice: string,
-       sugar: string,
-       method: string,
-       garnish: string
-    }[]
-}
+import { useParams } from 'react-router-dom'
+import { Cocktailsub } from '.././cocktailsub/cocktailsub'
 
 export const Cocktailcard = (props: CocktailProps) => {
+
+    let params = useParams()
+
+    console.log(params.cocktailid)
+
     return (
         <Container>
             <Wrapper>
-                {props.cocktails.map(cocktail => {
-                    return (
-                        <div key={cocktail.id}>
-                        <h1>{cocktail.id}: {cocktail.name}</h1>
-                        <p>Glass: {cocktail.glass}</p>
-                        <p>Ice: {cocktail.ice}</p>
-                        <p>Spirit: {cocktail.spirits}</p>
-                        <p>Syrup: {cocktail.syrup}</p>
-                        <p>Aro: {cocktail.aro}</p>
-                        <p>Juice: {cocktail.juice}</p>
-                        <p>Sugar: {cocktail.sugar}</p>
-                        <p>Method: {cocktail.method}</p>
-                        <p>Garnish: {cocktail.garnish}</p>
-                        </div>
-                    )
-                })}
+                <Cocktailsub cocktailid={params.cocktailid}/>
             </Wrapper>
         </Container>
     )
 }
 
 export default Cocktailcard
+
+/// 

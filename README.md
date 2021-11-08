@@ -14,6 +14,7 @@ An app to learn how to make cocktails.
     - Test
     - Settings 
       - Color scheme. Click through.
+  
   - Learn Menu
     - Display all available cocktails using grid layout.
     - Make the display attractive and 'adult' bar. Looks for some good styling.
@@ -25,5 +26,6 @@ An app to learn how to make cocktails.
       - The image of the 
       - Use icons to indicate each required element.
       - Display all/ click through - 
+- 
   - Test
     - Simple quiz with three options. If user clicks one wrong, start again.
