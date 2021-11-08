@@ -11,7 +11,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/mojito.jpg"
   },  
   {
     "id": 2,
@@ -25,7 +26,8 @@
     "juice": "6cl Pineapple Juice. 4dl milk. 1 squirt of cream.",
     "sugar": "",
     "method": "Pour all ingredients into the shakes. Add CUBED ice. Shake hard and fast. Pour over CUBED ice in hurricane glass",
-    "garnish": "Lime, organge, mint sprig."
+    "garnish": "Lime, organge, mint sprig.",
+    "url": "/images/pina.jpg"
   },
   {
     "id": 3,
@@ -39,11 +41,12 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/daiquiri.jpg"
   },
   {
     "id": 4,
-    "name": "Passion Daiquri",
+    "name": "Passion Daiquiri",
     "glass": "Rocks",
     "ice": "Crushed",
     "spirits": "4cl Havana 7 Rum",
@@ -53,7 +56,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/pina.jpg"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/daiquiri.jpg"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/mojito.jpg"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/daiquiri.jpg"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/pina.jpg"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/daiquiri.jpg"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/mojito.jpg"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/mojito.jpg"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/pina.jpg"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/pina.jpg"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/pina.jpg"
   },
   {
     "id": 15,
@@ -207,6 +221,7 @@
     "juice": "Splash soda",
     "sugar": "1 spoon sugar",
     "method": "Muddle limes, sugar and sugar syrup. Clap mint and add to glass. Add Crushed Ice to the top. Pour in 4cl Havana 3. Churn with disc end of the spoon. Add more crushed ice. Splash of soda water",
-    "garnish": "Sprig of mint, lime piece, straw"
+    "garnish": "Sprig of mint, lime piece, straw",
+    "url": "/images/pina.jpg"
   }
 ]

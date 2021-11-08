@@ -25,7 +25,10 @@ export const Cocktailsub = (props: CocktailProps) => {
                         <p>Method: {cocktail.method}</p>
                         <p>Garnish: {cocktail.garnish}</p>
                         </div>
-                    )}
+                    )
+                    else return null
+                } 
+                
                 )}
             </Wrapper>
         </Container>

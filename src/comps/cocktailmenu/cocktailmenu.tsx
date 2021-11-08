@@ -1,6 +1,11 @@
 import { Link, Outlet } from 'react-router-dom'
-import {Container, 
-        Wrapper} from './styles'
+import {Container,
+        ItemWrapper,
+        Wrapper, 
+        Text,
+        CocktailImg,
+        InfoOverlay
+        } from './styles'
 
 type CocktailProps = {
     cocktails: {
@@ -15,20 +20,26 @@ type CocktailProps = {
        juice: string,
        sugar: string,
        method: string,
-       garnish: string
+       garnish: string,
+       url: string
     }[]
 }
 
 export const Cocktailmenu = (props: CocktailProps) => {
     return (
         <Container>
-            <Wrapper>
+                <Wrapper>
                 {props.cocktails.map(cocktail => {
                     return(
                     <Link 
                     to={`/cocktails/${cocktail.id}`}
                     key={cocktail.id}>
-                    {cocktail.name}
+                    <ItemWrapper>
+                        <CocktailImg src={cocktail.url}/>
+                            <InfoOverlay>
+                                <Text>{cocktail.name}</Text>
+                            </InfoOverlay>
+                    </ItemWrapper>
                     </Link>
                     )
                 })}
@@ -40,8 +51,3 @@ export const Cocktailmenu = (props: CocktailProps) => {
 
 export default Cocktailmenu
 
-//setup dynamic routing to each cocktail
-
-// display all the cocktails in a nice grid
-// when a user clicks on a the cocktail dynamically route and display the cocktail card
-// with all the information.
