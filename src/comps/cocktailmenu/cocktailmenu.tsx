@@ -3,9 +3,10 @@ import {Container,
         ItemWrapper,
         Wrapper, 
         Text,
+        TextSub,
         CocktailImg,
-        InfoOverlay
-        } from './styles'
+        InfoOverlay,
+        } from '.././styles'
 
 type CocktailProps = {
     cocktails: {
@@ -37,9 +38,10 @@ export const Cocktailmenu = (props: CocktailProps) => {
                     <ItemWrapper>
                         <CocktailImg src={cocktail.url}/>
                             <InfoOverlay>
-                                <Text>{cocktail.name}</Text>
                             </InfoOverlay>
                     </ItemWrapper>
+                    <TextSub>Gin</TextSub>
+                    <Text>{cocktail.name}</Text>
                     </Link>
                     )
                 })}
@@ -51,3 +53,16 @@ export const Cocktailmenu = (props: CocktailProps) => {
 
 export default Cocktailmenu
 
+// when a user clicks on a cocktail hide the others in a random fade out 
+// pattern
+// slide the selected receipe into view
+// all the others fade out // the chosen cocktail image slides to the top center
+// the cocktail info card slides 
+
+// send the click event as props
+// is there a way to figure out which grid box the selected image is in?
+// if so we could slide the image
+
+// make cocktail card look nice
+
+// when the user clicks on card back to top

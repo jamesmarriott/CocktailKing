@@ -1,5 +1,6 @@
-import { Cocktailmenu } from '.././comps/cocktailmenu/cocktailmenu'
+import {  Cocktailmenu } from '.././comps/cocktailmenu/cocktailmenu'
 import cocktailsJSON from '.././fixtures/cockailsJSON.json'
+import CocktailMenuHeader from '../comps/cocktailmenuheader/cocktail-card'
 
 function Cocktails(): JSX.Element {
 
@@ -7,6 +8,7 @@ function Cocktails(): JSX.Element {
   
   return (
     <div>
+      <CocktailMenuHeader/>
       <Cocktailmenu cocktails={cocktails}/>
     </div>
   )

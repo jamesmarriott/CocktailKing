@@ -24,8 +24,7 @@ function App(): JSX.Element {
                 <Route
                       index
                       element={
-                                            <p>Select an invoice</p>
-                    
+                        <p>Select a Cocktail</p>
                       }
                     />
 

@@ -1,5 +1,4 @@
-import {Container, 
-        Wrapper} from './styles'
+import { CockDisplay, CocktailInner, CocktailImgCard } from '../styles'
 import cocktailsJSON from '../../fixtures/cockailsJSON.json'
 
 type CocktailProps = {
@@ -9,12 +8,19 @@ type CocktailProps = {
 export const Cocktailsub = (props: CocktailProps) => {
 
     return (
-        <Container>
-            <Wrapper>
+
+        <CockDisplay>
             {cocktailsJSON.map(cocktail => {
                 if (cocktail.id === parseInt(props.cocktailid)) return (
                         <div key={cocktail.id}>
-                        <h1>#{cocktail.id}: {cocktail.name}</h1>
+                        <CocktailInner>
+                        <h2>{cocktail.name}</h2>
+                        <h4>A true classic</h4>
+                        </CocktailInner>
+                        <CocktailImgCard src={cocktail.url}/>
+                        <h5>Image: Unplash</h5>
+                        <CocktailInner>
+                        <h6>Ingredients</h6>
                         <p>Glass: {cocktail.glass}</p>
                         <p>Ice: {cocktail.ice}</p>
                         <p>Spirit: {cocktail.spirits}</p>
@@ -22,16 +28,18 @@ export const Cocktailsub = (props: CocktailProps) => {
                         <p>Aro: {cocktail.aro}</p>
                         <p>Juice: {cocktail.juice}</p>
                         <p>Sugar: {cocktail.sugar}</p>
-                        <p>Method: {cocktail.method}</p>
+                        </CocktailInner>
+                        <CocktailInner>
+                        <h6>Method</h6>
+                        <p>{cocktail.method}</p>
                         <p>Garnish: {cocktail.garnish}</p>
+                        </CocktailInner>
                         </div>
                     )
                     else return null
-                } 
-                
+                }
                 )}
-            </Wrapper>
-        </Container>
+        </CockDisplay>
     )
 }
 

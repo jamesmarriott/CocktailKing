@@ -1,5 +1,4 @@
-import {Container, 
-        Wrapper} from './styles'
+
 import { useParams } from 'react-router-dom'
 import { Cocktailsub } from '.././cocktailsub/cocktailsub'
 
@@ -10,14 +9,8 @@ export const Cocktailcard = (props: CocktailProps) => {
     console.log(params.cocktailid)
 
     return (
-        <Container>
-            <Wrapper>
-                <Cocktailsub cocktailid={params.cocktailid}/>
-            </Wrapper>
-        </Container>
+        <Cocktailsub cocktailid={params.cocktailid}/>
     )
 }
 
 export default Cocktailcard
-
-/// 
