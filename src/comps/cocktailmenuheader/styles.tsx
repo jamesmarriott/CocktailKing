@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 
 export const CocktailImgHeader = styled.img`
-    width: 25vw;
+    width: 350px;
 `
 
 export const CocktailHeaderContainer = styled.section`

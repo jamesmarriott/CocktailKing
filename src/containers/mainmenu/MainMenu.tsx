@@ -12,10 +12,10 @@ function MainMenu(): JSX.Element  {
         <Link to="/Settings"><NavItem>About</NavItem></Link>
         </NavBar>
         <MainMenuContainerOuter style={{backgroundImage: "url(https://source.unsplash.com/2nPS_9TV0VA) , linear-gradient(to right, rgba(58, 61, 62, 1) 0%, rgba(58, 61, 62, 1) 100%)"}}>
-            <MainMenuContainerInner stlye>
+            <MainMenuContainerInner>
             <h4>Become a</h4>
             <h1>Cocktail Master</h1>
-            <h3>Master the art of making perfect cocktails</h3>
+            <h3>Perfect the art of making perfect cocktails</h3>
             </MainMenuContainerInner>
         </MainMenuContainerOuter>
         <MainSection>

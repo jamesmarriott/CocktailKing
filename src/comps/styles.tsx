@@ -1,6 +1,6 @@
 import styled from "styled-components"
 // import{ PageText as NavText} from "../helpers/PageText"
-// import{ PageItemWrapper as NavItemWrapper} from "../helpers/ItemWrapper"
+import{ PageItemWrapper as NavItemWrapper} from "../helpers/ItemWrapper"
 
 export const Container = styled.div`
     padding: 1rem;
