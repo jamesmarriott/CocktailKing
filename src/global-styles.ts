@@ -37,7 +37,7 @@ export default createGlobalStyle`
         line-height: 1.6;
         color: #4e6955;
         line-height: 1;
-        font-weight: 500;
+        font-weight: 00;
         font-size: clamp(2rem, 4vw + 1rem, 3rem);
         font-family: "Lusitana", Georgia, 'Times New Roman', Times, serif;
     }

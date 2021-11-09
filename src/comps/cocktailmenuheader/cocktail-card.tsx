@@ -1,4 +1,4 @@
-import { CocktailImgCard } from "../styles";
+
 import { CocktailImgHeader, CocktailHeaderContainer } from "./styles";
 
 export const CocktailMenuHeader = () => {

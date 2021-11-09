@@ -30,8 +30,6 @@ export const CocktailImg = styled.img`
   height: 100%;
   object-fit: cover;
 
-  opacity: .8;
-
   @media only screen and (min-width: 30em) {
        max-height: 20vh;
     }
