@@ -1,15 +1,32 @@
-import { CockDisplay, CocktailInner, CocktailImgCard } from '../styles'
+import { CockDisplay, CocktailInner, CocktailImgCard, Spacer } from '../styles'
 import cocktailsJSON from '../../fixtures/cockailsJSON.json'
+import {useEffect, useRef , useLayoutEffect} from 'react'
+import { gsap } from "gsap";
 
 type CocktailProps = {
     cocktailid: string
 }
 
 export const Cocktailsub = (props: CocktailProps) => {
+    
+    const divRef = useRef();
+
+     useLayoutEffect(() => {
+        gsap.fromTo(divRef.current, {
+        opacity: 0.2,
+        }, {
+        opacity: 1,
+        duration: 1,
+        scale: 1
+        });
+    });
+    
+    useEffect(() => {
+        divRef.current.scrollIntoView()
+    })
 
     return (
-
-        <CockDisplay>
+        <CockDisplay ref={divRef}>
             {cocktailsJSON.map(cocktail => {
                 if (cocktail.id === parseInt(props.cocktailid)) return (
                         <div key={cocktail.id}>
@@ -17,9 +34,12 @@ export const Cocktailsub = (props: CocktailProps) => {
                         <h2>{cocktail.name}</h2>
                         <h4>A true classic</h4>
                         </CocktailInner>
+                        <Spacer/>
                         <CocktailImgCard src={cocktail.url}/>
                         <h5>Image: Unplash</h5>
                         <CocktailInner>
+                        <Spacer/>
+                        <Spacer/>
                         <h6>Ingredients</h6>
                         <p>Glass: {cocktail.glass}</p>
                         <p>Ice: {cocktail.ice}</p>
@@ -29,6 +49,7 @@ export const Cocktailsub = (props: CocktailProps) => {
                         <p>Juice: {cocktail.juice}</p>
                         <p>Sugar: {cocktail.sugar}</p>
                         </CocktailInner>
+                        <Spacer/>
                         <CocktailInner>
                         <h6>Method</h6>
                         <p>{cocktail.method}</p>

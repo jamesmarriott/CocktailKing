@@ -1,6 +1,6 @@
 import styled from "styled-components"
 // import{ PageText as NavText} from "../helpers/PageText"
-import{ PageItemWrapper as NavItemWrapper} from "../helpers/ItemWrapper"
+// import{ PageItemWrapper as NavItemWrapper} from "../helpers/ItemWrapper"
 
 export const Container = styled.div`
     padding: 1rem;
@@ -12,7 +12,7 @@ export const Container = styled.div`
 
 `
 
-export const Wrapper = styled(NavItemWrapper)`
+export const Wrapper = styled.div`
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
@@ -53,7 +53,6 @@ export const CocktailImgCard = styled.img`
 
   @media only screen and (min-width: 50em) {
        max-height: 20vh;
-    
     }
 
     @media only screen and (min-width: 50em) {
@@ -63,12 +62,15 @@ export const CocktailImgCard = styled.img`
 export const CocktailInner = styled.div`
     text-align: left;
     line-height: 1.4em;
-    padding-top: 1rem;
     padding-bottom: 1 rem;
     margin-top: 1.875 rem;
     margin-bottom: 1rem;
     position: relative;
     background-image: linear-gradient(to right,#AAA 0%to #AAA 100%);
+`
+
+export const Spacer = styled.div`
+    height: 1rem;
 `
 
 export const ItemWrapper = styled.div`
@@ -81,7 +83,7 @@ margin-bottom: 1rem;
 box-shadow: 1px 1px 6px 0 rgb(0 0 0 / 9%);
 
 &:hover ${CocktailImg}{
-
+    scale: 1.1
     }
 `
 export const CockDisplay = styled.div`

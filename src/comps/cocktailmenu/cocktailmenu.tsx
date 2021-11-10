@@ -1,6 +1,5 @@
-import React, {useEffect, useRef} from 'react'
+import React, {useRef , useLayoutEffect} from 'react'
 import { gsap } from "gsap";
-import { ScrollTrigger} from 'gsap/ScrollTrigger';
 import { Link, Outlet } from 'react-router-dom'
 import {Container,
         ItemWrapper,
@@ -10,8 +9,6 @@ import {Container,
         CocktailImg,
         InfoOverlay,
         } from '.././styles'
-
-gsap.registerPlugin(ScrollTrigger)
 
 type CocktailProps = {
     cocktails: {
@@ -35,22 +32,29 @@ export const Cocktailmenu = (props: CocktailProps) => {
 
     const el = useRef();
     const q = gsap.utils.selector(el);
-    
-    useEffect(() => {
-      gsap.to(q(".cocktailImage"), 
-        { opacity: 0 });
-    });
+
+
+     useLayoutEffect(() => {
+        gsap.fromTo(q(".box"), {
+        opacity: 0
+        }, {
+        opacity: 1,
+        duration: .5,
+        stagger: 0.12
+        });
+    }, [q]);
+ 
 
     return (
         <Container>
-                <Wrapper>
+                <Wrapper ref={el}>
                 {props.cocktails.map(cocktail => {
                     return(
                     <Link 
                     to={`/cocktails/${cocktail.id}`}
                     key={cocktail.id}>
-                    <ItemWrapper>
-                        <CocktailImg ref={el} className="cocktailImage" src={cocktail.url}/>
+                    <ItemWrapper className="box">
+                        <CocktailImg src={cocktail.url}/>
                             <InfoOverlay>
                             </InfoOverlay>
                     </ItemWrapper>

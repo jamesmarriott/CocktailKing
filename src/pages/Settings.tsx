@@ -1,15 +1,12 @@
-import { Cocktailcard } from '.././comps/card/cocktail-card'
-import cocktailsJSON from '.././fixtures/cockailsJSON.json'
+import { NavBarComp } from '../comps/nav/nav'
 
-function Settings(): JSX.Element {
+function Learn(): JSX.Element {
 
-  const cocktails = cocktailsJSON
-  
   return (
     <div>
-      <Cocktailcard cocktails={cocktails}/>
+       <NavBarComp/>
     </div>
   )
 }
 
-export default Settings
+export default Learn

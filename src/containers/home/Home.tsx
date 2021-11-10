@@ -9,9 +9,9 @@ function HomeContainer(): JSX.Element  {
 
     useEffect(()=>{
         gsap.timeline()
-        .from(q(".box-1"), {opacity: 0, y:-10, duration: 1, delay:.2})
-        .from(q(".box-2"), {opacity:0, stagger:0.1, duration: 1.5, scale:0.2, ease:"back"})
-        .from(q(".box-3"), {x:20, opacity:0, stagger:0.1, duration:0.8, ease:"in"})    
+        .from(q(".box-1"), {opacity: 0, y:-10, duration: .2, delay:.2})
+        .from(q(".box-2"), {opacity:0, stagger:0.1, duration: 1, scale:0.05, ease:"back"})
+        .from(q(".box-3"), {x:20, opacity:0, stagger:0.1, duration:0.6, ease:"in"})    
     })
 
     return (

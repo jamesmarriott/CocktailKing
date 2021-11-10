@@ -1,6 +1,6 @@
 
 import { useParams } from 'react-router-dom'
-import { Cocktailsub } from '.././cocktailsub/cocktailsub'
+import { Cocktailsub } from '../cocktailsub/cocktailsub'
 
 export const Cocktailcard = (props: CocktailProps) => {
 
