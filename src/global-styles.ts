@@ -28,14 +28,14 @@ export default createGlobalStyle`
         line-height: 1.6;
         line-height: 1;
         font-weight: 400;
-        font-size: clamp(3.5rem, 4vw + 1rem, 10rem);
-        color: #A45241;
+        font-size: clamp(3rem, 4vw + 1rem, 10rem);
+        color: #781905;
         font-family: "Lusitana", Georgia, 'Times New Roman', Times, serif;
     }
 
     h2{
         line-height: 1.6;
-        color: #4e6955;
+        color: #07591c;
         line-height: 1;
         font-weight: 00;
         font-size: clamp(2rem, 4vw + 1rem, 3rem);
@@ -46,15 +46,16 @@ export default createGlobalStyle`
         line-height: 1.2;
         font-size: clamp(1.2rem, 1vw + .5rem, 4rem);
         font-weight: 200;
-        color: #4e6955;
+        color: #0a5921;
          font-family: "Lusitana", Georgia, 'Times New Roman', Times, serif;
     }
 
     h4 {
         font-weight: 800;
+        letter-spacing: .1em;
         font-size: clamp(.4rem, 1rem, 3rem);
         font-family: "Montserrat", Helvetica,sans-serif;
-        color: rgb(157, 42, 44);
+        color: #9D2D2A;
         text-transform: uppercase;
     }
 

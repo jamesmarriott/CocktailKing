@@ -4,29 +4,6 @@ export const AppContainer = styled.main`
     background: #06273A;
     width: 100vw;
 `
-
-export const NavBar = styled.ul`
-background: linear-gradient(#000 0,#031621 64.2%,#06273A 100%);
-display: flex;
-color: white;
-list-style: none;
-justify-content: space-evenly;
-height: 3.75rem;
-position: sticky;
-top: 0;
-`
-
-export const NavItem = styled.li`
-justify-content: space-between;
-padding-top: 1rem;
-padding-bottom: 1rem;
-font-size: 1.2rem;
-font-weight: 600;
-text-transform: uppercase;
-color: #CE7C2E;
-font-family: "Montserrat", Helvetica,sans-serif;
-`
-
 export const MainMenuContainerOuter = styled.section`
     display: flex;
     flex-direction: column;
@@ -43,9 +20,9 @@ export const MainMenuContainerOuter = styled.section`
 
 export const MainMenuContainerInner = styled.section`
 
-    width: 80vw;
+    width: 85vw;
     padding: 1.5rem 0 1.5rem 0;
-	border: 8px solid #DE9B72;
+	border: 8px solid #cc7139;
     background: rgb(6,39,58);
     background: linear-gradient(90deg, rgba(255, 255, 255, .8) 0%, rgba(255, 255, 255,.6) 100%);
 

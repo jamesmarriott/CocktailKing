@@ -16,6 +16,7 @@ export const Wrapper = styled(NavItemWrapper)`
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
+
         
     @media only screen and (min-width: 50em) {
         grid-template-columns: repeat(4, 1fr);
@@ -29,6 +30,7 @@ export const CocktailImg = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: 0.3s;
 
   @media only screen and (min-width: 30em) {
        max-height: 20vh;
@@ -42,12 +44,16 @@ export const CocktailImg = styled.img`
 
 export const CocktailImgCard = styled.img`
   width: 100%;
-  height: 80vh;
+  max-height: 50vh;
   box-shadow: 4px 4px 6px 0 rgb(0 0 0 / 20%);
+  border: .1rem solid lightslategray;
+  background-color: white;
+  padding: 1rem;
   object-fit: cover;
 
-  @media only screen and (min-width: 30em) {
+  @media only screen and (min-width: 50em) {
        max-height: 20vh;
+    
     }
 
     @media only screen and (min-width: 50em) {
@@ -75,7 +81,7 @@ margin-bottom: 1rem;
 box-shadow: 1px 1px 6px 0 rgb(0 0 0 / 9%);
 
 &:hover ${CocktailImg}{
-   opacity: 1;
+
     }
 `
 export const CockDisplay = styled.div`
