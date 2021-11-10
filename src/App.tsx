@@ -3,7 +3,7 @@ import Home from './pages/Home'
 import Cocktails from './pages/Cocktails'
 import Cocktailcard from './comps/card/cocktail-card'
 import Settings from './pages/Settings'
-import Test from './pages/Test'
+import Learn from './pages/Learn'
 
 function App(): JSX.Element {
 
@@ -33,8 +33,8 @@ function App(): JSX.Element {
                 </Route>
                 
                 <Route 
-                path="/Test"
-                element={<Test/>}/>
+                path="/Learn"
+                element={<Learn/>}/>
                 
                 <Route 
                 path="/Settings"

@@ -7,4 +7,5 @@ An app to learn how to make cocktails.
 - Typescript
 - GSAP
 
-##
+## To Do
+- Build the learn and test components.
