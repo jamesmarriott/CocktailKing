@@ -63,8 +63,9 @@ export const CocktailImgCard = styled.img`
         max-height: 75vh;
     }
 `
-export const CocktailInner = styled.div`
 
+export const CocktailInner = styled.div`
+    
     text-align: left;
     line-height: 1.4em;
     padding-bottom: 1 rem;

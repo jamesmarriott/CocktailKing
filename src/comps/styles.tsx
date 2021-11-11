@@ -6,7 +6,6 @@ export const Container = styled.div`
     padding: 1rem;
     display: flex;
     align-items: center;
-    align-items: center;
     justify-items: center;
     justify-content:space-evenly;
 `
@@ -14,15 +13,11 @@ export const Container = styled.div`
 export const CocktailImg = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: 0.3s;
+  object-fit: scale-down;
+  transition: 0.2s;
 
   @media only screen and (min-width: 30em) {
-       max-height: 20vh;
-    }
-
-    @media only screen and (min-width: 50em) {
-        max-height: 30vh;
+        object-fit: cover;
     }
 
 `
@@ -51,7 +46,7 @@ margin-bottom: 1rem;
 box-shadow: 1px 1px 6px 0 rgb(0 0 0 / 9%);
 
 &:hover ${CocktailImg}{
-    scale: 1.1
+    scale: 1.05
     }
 `
 export const CockDisplay = styled.div`
@@ -61,7 +56,7 @@ export const CockDisplay = styled.div`
     grid-column: 1 / 3;
 
     // four columns
-    @media only screen and (min-width: 45em) {
+    @media only screen and (min-width: 50em) {
         grid-row: 1 / 4;
         grid-column: 1 / 4;
     }
