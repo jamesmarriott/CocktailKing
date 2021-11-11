@@ -9,21 +9,6 @@ export const Container = styled.div`
     align-items: center;
     justify-items: center;
     justify-content:space-evenly;
-
-`
-
-export const Wrapper = styled.div`
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-
-        
-    @media only screen and (min-width: 50em) {
-        grid-template-columns: repeat(4, 1fr);
-    }
-    @media only screen and (min-width: 60em) {
-        grid-template-columns: repeat(6, 1fr);
-    }
 `
 
 export const CocktailImg = styled.img`
@@ -42,35 +27,18 @@ export const CocktailImg = styled.img`
 
 `
 
-export const CocktailImgCard = styled.img`
-  width: 100%;
-  max-height: 50vh;
-  box-shadow: 4px 4px 6px 0 rgb(0 0 0 / 20%);
-  border: .1rem solid lightslategray;
-  background-color: white;
-  padding: 1rem;
-  object-fit: cover;
+export const Wrapper = styled.div`
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
 
-  @media only screen and (min-width: 50em) {
-       max-height: 20vh;
-    }
-
+        
     @media only screen and (min-width: 50em) {
-        max-height: 50vh;
+        grid-template-columns: repeat(4, 1fr);
     }
-`
-export const CocktailInner = styled.div`
-    text-align: left;
-    line-height: 1.4em;
-    padding-bottom: 1 rem;
-    margin-top: 1.875 rem;
-    margin-bottom: 1rem;
-    position: relative;
-    background-image: linear-gradient(to right,#AAA 0%to #AAA 100%);
-`
-
-export const Spacer = styled.div`
-    height: 1rem;
+    @media only screen and (min-width: 60em) {
+        grid-template-columns: repeat(6, 1fr);
+    }
 `
 
 export const ItemWrapper = styled.div`
@@ -91,18 +59,17 @@ export const CockDisplay = styled.div`
     // two columns
     grid-row: 1 / 2;
     grid-column: 1 / 3;
-        
 
     // four columns
-    @media only screen and (min-width: 50em) {
+    @media only screen and (min-width: 45em) {
         grid-row: 1 / 4;
-        grid-column: 2 / 4;
+        grid-column: 1 / 4;
     }
 
     // six columns
     @media only screen and (min-width: 60em) {
-        grid-row: 1 / 6;
-        grid-column: 3 / 5;
+        grid-row: 1 / 3;
+        grid-column: 1 / 5;
     }
 `
 

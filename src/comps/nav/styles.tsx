@@ -15,7 +15,7 @@ export const NavItem = styled.li`
 justify-content: space-between;
 padding-top: 1rem;
 padding-bottom: 1rem;
-font-size: 1.2rem;
+font-size: 1rem;
 font-weight: 600;
 text-transform: uppercase;
 color: #CE7C2E;

@@ -8,4 +8,5 @@ An app to learn how to make cocktails.
 - GSAP
 
 ## To Do
-- Build the learn and test components.
+- Build the learn and test pages.
+- 

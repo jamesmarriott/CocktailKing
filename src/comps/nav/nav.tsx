@@ -9,7 +9,7 @@ export const NavBarComp = () => {
 
          <NavBar>
             <Link to="/"><NavItem>Home</NavItem></Link>
-            <Link to="/Cocktails"><NavItem>Cocktails</NavItem></Link>
+            <Link to="/Cocktails"><NavItem>Recipes</NavItem></Link>
             <Link to="/Learn"><NavItem>Learn</NavItem></Link>
             <Link to="/Settings"><NavItem>About</NavItem></Link>
         </NavBar>

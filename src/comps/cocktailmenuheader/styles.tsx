@@ -7,6 +7,12 @@ export const CocktailImgHeader = styled.img`
     padding-bottom: 1rem;
 `
 
+export const HeaderPText = styled.p`
+    font-size: clamp(1.1rem, 1vw + .2rem, 2.2rem);
+    line-height: 1.3;
+
+    `
+
 export const CocktailHeaderContainer = styled.section`
     display: flex;
     flex-direction: column;
