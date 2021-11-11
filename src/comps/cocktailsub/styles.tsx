@@ -65,7 +65,7 @@ export const CocktailImgCard = styled.img`
 `
 
 export const CocktailInner = styled.div`
-    
+    padding-right: 2rem;
     text-align: left;
     line-height: 1.4em;
     padding-bottom: 1 rem;
@@ -76,6 +76,7 @@ export const CocktailInner = styled.div`
 
     @media only screen and (min-width: 30em) {
       flex: 1 0 0;
+      padding: none;
     }
 
 `
