@@ -56,6 +56,11 @@ An app to learn how to make cocktails.
 
 #### Learn
 
+
+### Cocktail Matcher
+Match the image with the drink
+Give the user a limited time
+
 ## Quizes
 Make resuable modules
 
@@ -63,8 +68,13 @@ Make resuable modules
 - Show three images and cocktail name. Click on the correct image.
 - Display cocktail images one side. Names on the other. Click to match.
 
+### Equipment
+- Make a json file with equipment.
+
 ### Cocktail Maker Page
-Steps to make a mojito
+Pick them in the correct order - multiple choice.
+First just use description and image.
+As the user selects the correct one move it over to the side.
 - Choose 
   - Glass: Hurricane/ Rocks/ 
   - Spirit: Rum/ Vodka
